@@ -10,7 +10,7 @@
     <form method="POST" action="{{ route('admin.questions.store') }}">
         @csrf
 
-        {{-- Validation Errors --}}
+        {{-- Validation Error --}}
         @if ($errors->any())
             <div class="alert alert-danger">
                 <strong>Please fix the following errors:</strong>
